@@ -52,13 +52,13 @@
         echo "$value ";
     }
 
-    $arr4 = [];
+    $mass4 = [];
     
     foreach( array_reverse($mass3) as $value ) {
-        array_push($arr4, $value);
+        array_push($mass4, $value);
     }
-    $mass3 = $arr4;
-    echo "Масиив 3 обратный: ";
+    $mass3 = $mass4;
+    echo "Масcив 3 обратный: ";
     foreach( $mass3 as $value ){
         echo "$value ";
     }
